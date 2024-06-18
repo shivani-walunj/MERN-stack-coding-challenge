@@ -1,0 +1,9 @@
+.filter{
+  @apply flex justify-between items-center  my-10 w-[90%] mx-[5%]
+}
+.filter--Search--input{
+  @apply p-5 rounded-xl outline-none border border-blue-600
+}
+.filter--Month>select{
+  @apply outline-none border border-blue-300 p-5 rounded-xl text-xl
+}

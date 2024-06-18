@@ -1,0 +1,15 @@
+.nav_bar--container{
+  @apply bg-white px-4;
+}
+.nav_bar--items{
+  @apply flex justify-between items-center
+}
+.nav_bar--router{
+  @apply flex gap-4 justify-start items-center
+}
+.link--home{
+  @apply hover:text-blue-600 active:text-blue-600
+}
+#root{
+  @apply py-0 px-0 w-full mx-0 max-w-screen-2xl
+}

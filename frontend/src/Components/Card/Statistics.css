@@ -1,0 +1,12 @@
+.stats_card{
+  @apply bg-blue-700 my-7 w-[50%] p-10 rounded-xl text-xl text-white mx-auto
+}
+.stats_card--info{
+  @apply grid grid-cols-2 even:font-bold odd:font-light
+}
+.stats_card--info >h1{
+  @apply text-left
+}
+.stats__card--heading{
+  @apply font-extrabold text-xl text-center text-yellow-100 mb-6
+}
